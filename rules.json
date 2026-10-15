@@ -1,0 +1,32 @@
+[
+  {
+    "id": "RULE_AAPL_LVL_ABV",
+    "instrument": "AAPL",
+    "type": "level",
+    "direction": "above",
+    "threshold": 150.0
+  },
+  {
+    "id": "RULE_AAPL_LVL_BLW",
+    "instrument": "AAPL",
+    "type": "level",
+    "direction": "below",
+    "threshold": 150.0
+  },
+  {
+    "id": "RULE_MSFT_MA_ABV",
+    "instrument": "MSFT",
+    "type": "ma_cross",
+    "direction": "above",
+    "short_window": 2,
+    "long_window": 3
+  },
+  {
+    "id": "RULE_MSFT_MA_BLW",
+    "instrument": "MSFT",
+    "type": "ma_cross",
+    "direction": "below",
+    "short_window": 2,
+    "long_window": 3
+  }
+]
